@@ -56,7 +56,7 @@ The site fetches JSON files from `/data/` at runtime using `fetch()`. You do NOT
 The page has 6 sections stacked vertically (Upcoming Race is **above** Standings):
 
 ### 1. Hero / Header (sticky)
-- F1 mark + "F1 Dashboard" title
+- Brand mark (inline SVG speedometer, NOT the official F1 logo) + "F1 Dashboard" title
 - Current season year (e.g. "2026 Season")
 - Navigation: anchor links to Upcoming, Standings, Results, Calendar
 - Last updated timestamp (from `standings.json`, relative time)
@@ -310,6 +310,7 @@ Fully built and runnable. Vanilla HTML/CSS/JS, no build step, no external depend
 - **Countdown:** compact tabular-nums digits, blinking `:` separators, red glow; switches to "LIGHTS OUT 🏁" at T-0
 - **Skeleton loaders:** shimmering placeholder rows/banner shown before data loads (`showSkeletons()` in `main.js`, `.skeleton*` in CSS); shimmer disabled under `prefers-reduced-motion`
 - **Brand assets:** custom speedometer mark (NOT the official F1 logo) — `favicon.ico/.png`, `apple-touch-icon.png`, and 1200×630 `og-image.png`
+- **Hero brand mark:** inline SVG speedometer (gauge arc + needle) in `.hero__mark`, white on red accent — replaced the previous italic "F1" text mark (which resembled the official F1 logo)
 - **Analytics:** GoatCounter live (`f1dashboard2026`); privacy-friendly, no cookies, ignores `localhost`
 
 **Recent cleanup (no dead code):**
