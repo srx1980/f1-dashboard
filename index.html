@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>F1 Dashboard 2026 — Standings, Results &amp; Schedule</title>
+  <meta name="description" content="A clean, minimal Formula 1 dashboard with live championship standings, latest race results, the upcoming race countdown, and the full 2026 season calendar." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="canonical" href="https://f1dashboard.example/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="F1 Dashboard 2026 — Standings, Results &amp; Schedule" />
+  <meta property="og:description" content="Driver and constructor standings, latest results, upcoming race countdown, and the full 2026 F1 calendar — at a glance." />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:url" content="https://f1dashboard.example/" />
+  <meta property="og:site_name" content="F1 Dashboard" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="F1 Dashboard 2026 — Standings, Results &amp; Schedule" />
+  <meta name="twitter:description" content="Driver and constructor standings, latest results, upcoming race countdown, and the full 2026 F1 calendar." />
+  <meta name="twitter:image" content="assets/og-image.png" />
+
+  <link rel="icon" href="assets/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="css/style.css?v=8" />
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "F1 Dashboard",
+    "url": "https://f1dashboard.example/",
+    "description": "A clean, minimal Formula 1 dashboard with standings, results, schedule, and an upcoming race countdown."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#upcoming">Skip to content</a>
+
+  <!-- 1. HERO / HEADER -->
+  <header class="hero" id="top">
+    <div class="container hero__inner">
+      <div class="hero__brand">
+        <span class="hero__mark" aria-hidden="true">F1</span>
+        <div>
+          <h1 class="hero__title">F1 Dashboard</h1>
+          <p class="hero__season" id="hero-season">2026 Season</p>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Section navigation">
+        <a href="#upcoming">Upcoming</a>
+        <a href="#standings">Standings</a>
+        <a href="#results">Results</a>
+        <a href="#calendar">Calendar</a>
+      </nav>
+
+      <p class="hero__updated" id="hero-updated" aria-live="polite">
+        <span class="dot" aria-hidden="true"></span>
+        <span id="updated-text">Loading…</span>
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- 1. UPCOMING RACE -->
+    <section class="section section--upcoming" id="upcoming" aria-labelledby="upcoming-h">
+      <div class="section__head">
+        <h2 class="section__title" id="upcoming-h">Upcoming Race</h2>
+      </div>
+      <div id="upcoming-content" class="upcoming">
+        <p class="state">Loading next race…</p>
+      </div>
+    </section>
+
+    <!-- 2. SEASON STANDINGS -->
+    <section class="section" id="standings" aria-labelledby="standings-h">
+      <div class="section__head">
+        <h2 class="section__title" id="standings-h">Season Standings</h2>
+        <p class="section__sub" id="standings-sub"></p>
+      </div>
+
+      <div class="standings-grid">
+        <article class="card">
+          <h3 class="card__title">Drivers</h3>
+          <div class="table-wrap">
+            <table class="table table--drivers">
+              <thead>
+                <tr>
+                  <th class="col-pos">Pos</th>
+                  <th>Driver</th>
+                  <th>Team</th>
+                  <th class="num">Pts</th>
+                  <th class="num">Wins</th>
+                </tr>
+              </thead>
+              <tbody id="driver-standings-body">
+                <tr><td colspan="5" class="state">Loading driver standings…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3 class="card__title">Constructors</h3>
+          <div class="table-wrap">
+            <table class="table table--constructors">
+              <thead>
+                <tr>
+                  <th class="col-pos">Pos</th>
+                  <th>Team</th>
+                  <th class="num">Pts</th>
+                  <th class="num">Wins</th>
+                </tr>
+              </thead>
+              <tbody id="constructor-standings-body">
+                <tr><td colspan="4" class="state">Loading constructor standings…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3. LATEST RACE RESULTS -->
+    <section class="section" id="results" aria-labelledby="results-h">
+      <div class="section__head">
+        <h2 class="section__title" id="results-h">Latest Race Results</h2>
+        <p class="section__sub" id="results-sub"></p>
+      </div>
+      <div class="table-wrap card">
+        <table class="table table--results">
+          <thead>
+            <tr>
+              <th class="col-pos">Pos</th>
+              <th>Driver</th>
+              <th>Team</th>
+              <th>Time / Status</th>
+              <th class="num">Grid</th>
+              <th>Fastest Lap</th>
+            </tr>
+          </thead>
+          <tbody id="results-body">
+            <tr><td colspan="6" class="state">Loading results…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 5. SEASON CALENDAR -->
+    <section class="section" id="calendar" aria-labelledby="calendar-h">
+      <div class="section__head">
+        <h2 class="section__title" id="calendar-h">Season Calendar</h2>
+        <p class="section__sub" id="calendar-sub"></p>
+      </div>
+      <div class="table-wrap card">
+        <table class="table table--calendar">
+          <thead>
+            <tr>
+              <th class="col-pos">Rnd</th>
+              <th>Date</th>
+              <th>Race</th>
+              <th>Circuit</th>
+              <th>Winner</th>
+            </tr>
+          </thead>
+          <tbody id="calendar-body">
+            <tr><td colspan="5" class="state">Loading calendar…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 6. RACE SUMMARY (optional) -->
+    <section class="section is-hidden" id="summary" aria-labelledby="summary-h">
+      <div class="section__head">
+        <h2 class="section__title" id="summary-h">Race Summary</h2>
+      </div>
+      <article class="card prose" id="summary-content"></article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>F1 Dashboard — unofficial, fan-made. Not affiliated with Formula 1.</p>
+      <p><a href="#top">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=8" defer></script>
+
+  <!-- Analytics: GoatCounter (privacy-friendly, no cookies) -->
+  <script data-goatcounter="https://f1dashboard2026.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
