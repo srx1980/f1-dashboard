@@ -22,10 +22,9 @@
       },
       "constructor": "Ferrari",
       "laps": "66",
-      "time": "1:32:28.105",
+      "time": "1:32:28.669",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "25"
+      "fastestLap": null
     },
     {
       "position": "2",
@@ -38,10 +37,9 @@
       },
       "constructor": "Mercedes",
       "laps": "66",
-      "time": "+19.561s",
+      "time": "+19.482s",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "18"
+      "fastestLap": null
     },
     {
       "position": "3",
@@ -54,10 +52,9 @@
       },
       "constructor": "McLaren",
       "laps": "66",
-      "time": "+23.719s",
+      "time": "+23.661s",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "15"
+      "fastestLap": null
     },
     {
       "position": "4",
@@ -70,10 +67,9 @@
       },
       "constructor": "Red Bull Racing",
       "laps": "66",
-      "time": "+40.497s",
+      "time": "+40.489s",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "12"
+      "fastestLap": null
     },
     {
       "position": "5",
@@ -86,10 +82,9 @@
       },
       "constructor": "McLaren",
       "laps": "66",
-      "time": "+58.661s",
+      "time": "+58.549s",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "10"
+      "fastestLap": null
     },
     {
       "position": "6",
@@ -104,8 +99,7 @@
       "laps": "65",
       "time": "+1 Lap",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "8"
+      "fastestLap": null
     },
     {
       "position": "7",
@@ -120,43 +114,10 @@
       "laps": "65",
       "time": "+1 Lap",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "6"
+      "fastestLap": null
     },
     {
       "position": "8",
-      "grid": "8",
-      "driver": {
-        "code": "LAW",
-        "givenName": "Liam",
-        "familyName": "Lawson",
-        "nationality": "New Zealander"
-      },
-      "constructor": "Racing Bulls",
-      "laps": "65",
-      "time": "+1 Lap",
-      "status": "Finished",
-      "fastestLap": null,
-      "points": "4"
-    },
-    {
-      "position": "9",
-      "grid": "11",
-      "driver": {
-        "code": "LIN",
-        "givenName": "Arvid",
-        "familyName": "Lindblad",
-        "nationality": "Swedish"
-      },
-      "constructor": "Racing Bulls",
-      "laps": "65",
-      "time": "+1 Lap",
-      "status": "Finished",
-      "fastestLap": null,
-      "points": "2"
-    },
-    {
-      "position": "10",
       "grid": "13",
       "driver": {
         "code": "COL",
@@ -168,8 +129,37 @@
       "laps": "65",
       "time": "+1 Lap",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "1"
+      "fastestLap": null
+    },
+    {
+      "position": "9",
+      "grid": "8",
+      "driver": {
+        "code": "LAW",
+        "givenName": "Liam",
+        "familyName": "Lawson",
+        "nationality": "New Zealander"
+      },
+      "constructor": "Racing Bulls",
+      "laps": "65",
+      "time": "+1 Lap",
+      "status": "Finished",
+      "fastestLap": null
+    },
+    {
+      "position": "10",
+      "grid": "11",
+      "driver": {
+        "code": "LIN",
+        "givenName": "Arvid",
+        "familyName": "Lindblad",
+        "nationality": "Swedish"
+      },
+      "constructor": "Racing Bulls",
+      "laps": "65",
+      "time": "+1 Lap",
+      "status": "Finished",
+      "fastestLap": null
     },
     {
       "position": "11",
@@ -242,8 +232,8 @@
       },
       "constructor": "Ferrari",
       "laps": "62",
-      "time": null,
-      "status": "DNF",
+      "time": "+4 Laps",
+      "status": "Finished",
       "fastestLap": null
     },
     {
@@ -257,8 +247,8 @@
       },
       "constructor": "Mercedes",
       "laps": "61",
-      "time": null,
-      "status": "DNF",
+      "time": "+5 Laps",
+      "status": "Finished",
       "fastestLap": null
     },
     {
@@ -272,8 +262,8 @@
       },
       "constructor": "Haas F1 Team",
       "laps": "60",
-      "time": null,
-      "status": "DNF",
+      "time": "+6 Laps",
+      "status": "Finished",
       "fastestLap": null
     },
     {
