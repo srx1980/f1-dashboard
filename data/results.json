@@ -22,9 +22,10 @@
       },
       "constructor": "Ferrari",
       "laps": "66",
-      "time": "1:32:28.669",
+      "time": "1:32:28.105",
       "status": "Finished",
-      "fastestLap": null
+      "fastestLap": null,
+      "points": "25"
     },
     {
       "position": "2",
@@ -37,9 +38,10 @@
       },
       "constructor": "Mercedes",
       "laps": "66",
-      "time": "+19.482s",
+      "time": "+19.561s",
       "status": "Finished",
-      "fastestLap": null
+      "fastestLap": null,
+      "points": "18"
     },
     {
       "position": "3",
@@ -52,9 +54,10 @@
       },
       "constructor": "McLaren",
       "laps": "66",
-      "time": "+23.661s",
+      "time": "+23.719s",
       "status": "Finished",
-      "fastestLap": null
+      "fastestLap": null,
+      "points": "15"
     },
     {
       "position": "4",
@@ -67,9 +70,10 @@
       },
       "constructor": "Red Bull Racing",
       "laps": "66",
-      "time": "+40.489s",
+      "time": "+40.497s",
       "status": "Finished",
-      "fastestLap": null
+      "fastestLap": null,
+      "points": "12"
     },
     {
       "position": "5",
@@ -82,9 +86,10 @@
       },
       "constructor": "McLaren",
       "laps": "66",
-      "time": "+58.549s",
+      "time": "+58.661s",
       "status": "Finished",
-      "fastestLap": null
+      "fastestLap": null,
+      "points": "10"
     },
     {
       "position": "6",
@@ -99,7 +104,8 @@
       "laps": "65",
       "time": "+1 Lap",
       "status": "Finished",
-      "fastestLap": null
+      "fastestLap": null,
+      "points": "8"
     },
     {
       "position": "7",
@@ -114,25 +120,11 @@
       "laps": "65",
       "time": "+1 Lap",
       "status": "Finished",
-      "fastestLap": null
+      "fastestLap": null,
+      "points": "6"
     },
     {
       "position": "8",
-      "grid": "13",
-      "driver": {
-        "code": "COL",
-        "givenName": "Franco",
-        "familyName": "Colapinto",
-        "nationality": "Argentine"
-      },
-      "constructor": "Alpine",
-      "laps": "65",
-      "time": "+1 Lap",
-      "status": "Finished",
-      "fastestLap": null
-    },
-    {
-      "position": "9",
       "grid": "8",
       "driver": {
         "code": "LAW",
@@ -144,10 +136,11 @@
       "laps": "65",
       "time": "+1 Lap",
       "status": "Finished",
-      "fastestLap": null
+      "fastestLap": null,
+      "points": "4"
     },
     {
-      "position": "10",
+      "position": "9",
       "grid": "11",
       "driver": {
         "code": "LIN",
@@ -159,7 +152,24 @@
       "laps": "65",
       "time": "+1 Lap",
       "status": "Finished",
-      "fastestLap": null
+      "fastestLap": null,
+      "points": "2"
+    },
+    {
+      "position": "10",
+      "grid": "13",
+      "driver": {
+        "code": "COL",
+        "givenName": "Franco",
+        "familyName": "Colapinto",
+        "nationality": "Argentine"
+      },
+      "constructor": "Alpine",
+      "laps": "65",
+      "time": "+1 Lap",
+      "status": "Finished",
+      "fastestLap": null,
+      "points": "1"
     },
     {
       "position": "11",
@@ -232,8 +242,8 @@
       },
       "constructor": "Ferrari",
       "laps": "62",
-      "time": "+4 Laps",
-      "status": "Finished",
+      "time": null,
+      "status": "DNF",
       "fastestLap": null
     },
     {
@@ -247,8 +257,8 @@
       },
       "constructor": "Mercedes",
       "laps": "61",
-      "time": "+5 Laps",
-      "status": "Finished",
+      "time": null,
+      "status": "DNF",
       "fastestLap": null
     },
     {
@@ -262,8 +272,8 @@
       },
       "constructor": "Haas F1 Team",
       "laps": "60",
-      "time": "+6 Laps",
-      "status": "Finished",
+      "time": null,
+      "status": "DNF",
       "fastestLap": null
     },
     {
