@@ -1,7 +1,7 @@
 {
   "season": "2026",
   "round": "7",
-  "updated": "2026-06-18T12:00:00Z",
+  "updated": "2026-06-24T18:30:00Z",
   "driverStandings": [
     { "position": "1", "driver": { "code": "ANT", "givenName": "Andrea Kimi", "familyName": "Antonelli", "nationality": "Italian", "permanentNumber": "12" }, "constructor": "Mercedes", "points": "156", "wins": "5" },
     { "position": "2", "driver": { "code": "VER", "givenName": "Max", "familyName": "Verstappen", "nationality": "Dutch", "permanentNumber": "1" }, "constructor": "Red Bull", "points": "142", "wins": "2" },
