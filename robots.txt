@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://srx1980.github.io/f1-dashboard/sitemap.xml
