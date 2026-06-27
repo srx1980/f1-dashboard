@@ -1,35 +1,11 @@
 # Spanish Grand Prix — Race Summary
 
-**Lewis Hamilton** won the Spanish Grand Prix at the Circuit de Barcelona-Catalunya, finishing in 1:32:28.105 for his first victory with Ferrari.
+Lewis Hamilton claimed his first victory with Ferrari at the Spanish Grand Prix, completing the 66 laps of the Circuit de Barcelona-Catalunya in 1 hour, 32 minutes, and 28 seconds.
 
-## Results
+George Russell crossed the line second for Mercedes, 19.5 seconds behind Hamilton. Lando Norris took the final podium spot for McLaren, 23.7 seconds off the lead. Max Verstappen finished fourth for Red Bull Racing, 40.5 seconds adrift, with Oscar Piastri rounding out the top five for McLaren, 58.6 seconds behind. The next five finishers — Isack Hadjar, Pierre Gasly, Liam Lawson, Arvid Lindblad, and Franco Colapinto — all finished one lap down, with gaps ranging from roughly 2 to 49 seconds within that group.
 
-| Pos | Driver | Team | Gap |
-|-----|--------|------|-----|
-| 1 | Lewis Hamilton | Ferrari | 1:32:28.105 |
-| 2 | George Russell | Mercedes | +19.561s |
-| 3 | Lando Norris | McLaren | +23.719s |
-| 4 | Max Verstappen | Red Bull Racing | +40.497s |
-| 5 | Oscar Piastri | McLaren | +58.661s |
-| 6 | Isack Hadjar | Red Bull Racing | +1 Lap |
-| 7 | Pierre Gasly | Alpine | +1 Lap |
-| 8 | Liam Lawson | Racing Bulls | +1 Lap |
-| 9 | Arvid Lindblad | Racing Bulls | +1 Lap |
-| 10 | Franco Colapinto | Alpine | +1 Lap |
+Eight drivers failed to finish the race. Charles Leclerc completed 62 laps before retiring, while championship leader Andrea Kimi Antonelli exited after 61 laps. Oliver Bearman's race ended after 60 laps. Alexander Albon covered 55 laps, Fernando Alonso 37, Nico Hulkenberg 29, Valtteri Bottas 15, and Lance Stroll just 5 laps before their respective retirements.
 
-## Did Not Finish
+Despite failing to finish, Antonelli remains atop the drivers' championship with 156 points. Hamilton's win moves him to second with 115 points, ahead of George Russell on 106. Leclerc holds fourth with 75 points, with Norris fifth on 73. Mercedes continues to lead the constructors' standings with 262 points, followed by Ferrari (190) and McLaren (141).
 
-- Andrea Kimi Antonelli (Mercedes) — 61 laps
-- Charles Leclerc (Ferrari) — 62 laps
-- Oliver Bearman (Haas F1 Team) — 60 laps
-- Alexander Albon (Williams) — 55 laps
-- Fernando Alonso (Aston Martin) — 37 laps
-- Nico Hulkenberg (Audi) — 29 laps
-- Valtteri Bottas (Cadillac) — 15 laps
-- Lance Stroll (Aston Martin) — 5 laps
-
-## Championship
-
-Despite his DNF, **Andrea Kimi Antonelli** leads the drivers' championship with 156 points. Hamilton moves to second (115 pts), with Russell third (106 pts). **Mercedes** leads the constructors' standings (262 pts) ahead of Ferrari (190 pts).
-
-*Next: Austrian Grand Prix — Red Bull Ring, June 28.*
+The next race is the Austrian Grand Prix at the Red Bull Ring on June 28.
