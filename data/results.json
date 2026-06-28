@@ -1,34 +1,18 @@
 {
   "season": "2026",
-  "round": "9",
-  "raceName": "Spanish Grand Prix",
-  "date": "2026-06-14",
+  "round": "10",
+  "raceName": "Austrian Grand Prix",
+  "date": "2026-06-28",
   "circuit": {
-    "circuitName": "Circuit de Barcelona-Catalunya",
+    "circuitName": "Red Bull Ring",
     "location": {
-      "locality": "Barcelona",
-      "country": "Spain"
+      "locality": "Spielberg",
+      "country": "Austria"
     }
   },
   "results": [
     {
       "position": "1",
-      "grid": "2",
-      "driver": {
-        "code": "HAM",
-        "givenName": "Lewis",
-        "familyName": "Hamilton",
-        "nationality": "British"
-      },
-      "constructor": "Ferrari",
-      "laps": "66",
-      "time": "1:32:28.105",
-      "status": "Finished",
-      "fastestLap": null,
-      "points": "25"
-    },
-    {
-      "position": "2",
       "grid": "1",
       "driver": {
         "code": "RUS",
@@ -37,30 +21,13 @@
         "nationality": "British"
       },
       "constructor": "Mercedes",
-      "laps": "66",
-      "time": "+19.561s",
+      "laps": "71",
+      "time": "1:26:39.011",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "18"
+      "fastestLap": null
     },
     {
-      "position": "3",
-      "grid": "4",
-      "driver": {
-        "code": "NOR",
-        "givenName": "Lando",
-        "familyName": "Norris",
-        "nationality": "British"
-      },
-      "constructor": "McLaren",
-      "laps": "66",
-      "time": "+23.719s",
-      "status": "Finished",
-      "fastestLap": null,
-      "points": "15"
-    },
-    {
-      "position": "4",
+      "position": "2",
       "grid": "5",
       "driver": {
         "code": "VER",
@@ -68,15 +35,29 @@
         "familyName": "Verstappen",
         "nationality": "Dutch"
       },
-      "constructor": "Red Bull Racing",
-      "laps": "66",
-      "time": "+40.497s",
+      "constructor": "Red Bull",
+      "laps": "71",
+      "time": "+1.641s",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "12"
+      "fastestLap": null
     },
     {
-      "position": "5",
+      "position": "3",
+      "grid": "4",
+      "driver": {
+        "code": "ANT",
+        "givenName": "Andrea Kimi",
+        "familyName": "Antonelli",
+        "nationality": "Italian"
+      },
+      "constructor": "Mercedes",
+      "laps": "71",
+      "time": "+2.087s",
+      "status": "Finished",
+      "fastestLap": null
+    },
+    {
+      "position": "4",
       "grid": "7",
       "driver": {
         "code": "PIA",
@@ -85,91 +66,100 @@
         "nationality": "Australian"
       },
       "constructor": "McLaren",
-      "laps": "66",
-      "time": "+58.661s",
+      "laps": "71",
+      "time": "+21.909s",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "10"
+      "fastestLap": null
+    },
+    {
+      "position": "5",
+      "grid": "3",
+      "driver": {
+        "code": "HAM",
+        "givenName": "Lewis",
+        "familyName": "Hamilton",
+        "nationality": "British"
+      },
+      "constructor": "Ferrari",
+      "laps": "71",
+      "time": "+26.895s",
+      "status": "Finished",
+      "fastestLap": null
     },
     {
       "position": "6",
-      "grid": "6",
+      "grid": "8",
       "driver": {
         "code": "HAD",
         "givenName": "Isack",
         "familyName": "Hadjar",
         "nationality": "French"
       },
-      "constructor": "Red Bull Racing",
-      "laps": "65",
-      "time": "+1 Lap",
+      "constructor": "Red Bull",
+      "laps": "71",
+      "time": "+29.415s",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "8"
+      "fastestLap": null
     },
     {
       "position": "7",
-      "grid": "14",
+      "grid": "6",
       "driver": {
-        "code": "GAS",
-        "givenName": "Pierre",
-        "familyName": "Gasly",
-        "nationality": "French"
+        "code": "NOR",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "nationality": "British"
       },
-      "constructor": "Alpine",
-      "laps": "65",
-      "time": "+1 Lap",
+      "constructor": "McLaren",
+      "laps": "71",
+      "time": "+31.567s",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "6"
+      "fastestLap": null
     },
     {
       "position": "8",
-      "grid": "8",
+      "grid": "2",
+      "driver": {
+        "code": "LEC",
+        "givenName": "Charles",
+        "familyName": "Leclerc",
+        "nationality": "Monegasque"
+      },
+      "constructor": "Ferrari",
+      "laps": "71",
+      "time": "+45.670s",
+      "status": "Finished",
+      "fastestLap": null
+    },
+    {
+      "position": "9",
+      "grid": "9",
       "driver": {
         "code": "LAW",
         "givenName": "Liam",
         "familyName": "Lawson",
         "nationality": "New Zealander"
       },
-      "constructor": "Racing Bulls",
-      "laps": "65",
+      "constructor": "RB",
+      "laps": "70",
       "time": "+1 Lap",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "4"
+      "fastestLap": null
     },
     {
-      "position": "9",
-      "grid": "11",
+      "position": "10",
+      "grid": "10",
       "driver": {
         "code": "LIN",
         "givenName": "Arvid",
         "familyName": "Lindblad",
         "nationality": "Swedish"
       },
-      "constructor": "Racing Bulls",
-      "laps": "65",
+      "constructor": "RB",
+      "laps": "70",
       "time": "+1 Lap",
       "status": "Finished",
-      "fastestLap": null,
-      "points": "2"
-    },
-    {
-      "position": "10",
-      "grid": "13",
-      "driver": {
-        "code": "COL",
-        "givenName": "Franco",
-        "familyName": "Colapinto",
-        "nationality": "Argentine"
-      },
-      "constructor": "Alpine",
-      "laps": "65",
-      "time": "+1 Lap",
-      "status": "Finished",
-      "fastestLap": null,
-      "points": "1"
+      "fastestLap": null
     },
     {
       "position": "11",
@@ -180,104 +170,89 @@
         "familyName": "Bortoleto",
         "nationality": "Brazilian"
       },
-      "constructor": "Audi",
-      "laps": "64",
-      "time": "+2 Laps",
+      "constructor": "Audi Revolut F1 Team",
+      "laps": "70",
+      "time": "+1 Lap",
       "status": "Finished",
       "fastestLap": null
     },
     {
       "position": "12",
-      "grid": "16",
+      "grid": "14",
       "driver": {
-        "code": "SAI",
-        "givenName": "Carlos",
-        "familyName": "Sainz",
-        "nationality": "Spanish"
+        "code": "HUL",
+        "givenName": "Nico",
+        "familyName": "Hulkenberg",
+        "nationality": "German"
       },
-      "constructor": "Williams",
-      "laps": "64",
-      "time": "+2 Laps",
+      "constructor": "Audi Revolut F1 Team",
+      "laps": "70",
+      "time": "+1 Lap",
       "status": "Finished",
       "fastestLap": null
     },
     {
       "position": "13",
-      "grid": "17",
+      "grid": "11",
       "driver": {
-        "code": "OCO",
-        "givenName": "Esteban",
-        "familyName": "Ocon",
+        "code": "GAS",
+        "givenName": "Pierre",
+        "familyName": "Gasly",
         "nationality": "French"
       },
-      "constructor": "Haas F1 Team",
-      "laps": "64",
-      "time": "+2 Laps",
+      "constructor": "Alpine",
+      "laps": "70",
+      "time": "+1 Lap",
       "status": "Finished",
       "fastestLap": null
     },
     {
       "position": "14",
-      "grid": "19",
-      "driver": {
-        "code": "PER",
-        "givenName": "Sergio",
-        "familyName": "Perez",
-        "nationality": "Mexican"
-      },
-      "constructor": "Cadillac",
-      "laps": "63",
-      "time": "+3 Laps",
-      "status": "Finished",
-      "fastestLap": null
-    },
-    {
-      "position": "15",
-      "grid": "10",
-      "driver": {
-        "code": "LEC",
-        "givenName": "Charles",
-        "familyName": "Leclerc",
-        "nationality": "Monegasque"
-      },
-      "constructor": "Ferrari",
-      "laps": "62",
-      "time": null,
-      "status": "DNF",
-      "fastestLap": null
-    },
-    {
-      "position": "16",
-      "grid": "3",
-      "driver": {
-        "code": "ANT",
-        "givenName": "Andrea Kimi",
-        "familyName": "Antonelli",
-        "nationality": "Italian"
-      },
-      "constructor": "Mercedes",
-      "laps": "61",
-      "time": null,
-      "status": "DNF",
-      "fastestLap": null
-    },
-    {
-      "position": "17",
-      "grid": "15",
+      "grid": "13",
       "driver": {
         "code": "BEA",
         "givenName": "Oliver",
         "familyName": "Bearman",
         "nationality": "British"
       },
-      "constructor": "Haas F1 Team",
-      "laps": "60",
-      "time": null,
-      "status": "DNF",
+      "constructor": "Haas",
+      "laps": "70",
+      "time": "+1 Lap",
+      "status": "Finished",
       "fastestLap": null
     },
     {
-      "position": "NC",
+      "position": "15",
+      "grid": "16",
+      "driver": {
+        "code": "COL",
+        "givenName": "Franco",
+        "familyName": "Colapinto",
+        "nationality": "Argentine"
+      },
+      "constructor": "Alpine",
+      "laps": "70",
+      "time": "+1 Lap",
+      "status": "Finished",
+      "fastestLap": null
+    },
+    {
+      "position": "16",
+      "grid": "15",
+      "driver": {
+        "code": "OCO",
+        "givenName": "Esteban",
+        "familyName": "Ocon",
+        "nationality": "French"
+      },
+      "constructor": "Haas",
+      "laps": "69",
+      "time": "+2 Laps",
+      "status": "Finished",
+      "fastestLap": null
+    },
+    {
+      "position": "17",
       "grid": "18",
       "driver": {
         "code": "ALB",
@@ -286,14 +261,14 @@
         "nationality": "Thai"
       },
       "constructor": "Williams",
-      "laps": "55",
-      "time": null,
-      "status": "+11 Laps",
+      "laps": "69",
+      "time": "+2 Laps",
+      "status": "Finished",
       "fastestLap": null
     },
     {
-      "position": "NC",
-      "grid": "22",
+      "position": "18",
+      "grid": "21",
       "driver": {
         "code": "ALO",
         "givenName": "Fernando",
@@ -301,22 +276,52 @@
         "nationality": "Spanish"
       },
       "constructor": "Aston Martin",
-      "laps": "37",
+      "laps": "68",
+      "time": "+3 Laps",
+      "status": "Finished",
+      "fastestLap": null
+    },
+    {
+      "position": "NC",
+      "grid": "22",
+      "driver": {
+        "code": "STR",
+        "givenName": "Lance",
+        "familyName": "Stroll",
+        "nationality": "Canadian"
+      },
+      "constructor": "Aston Martin",
+      "laps": "45",
       "time": null,
       "status": "DNF",
       "fastestLap": null
     },
     {
       "position": "NC",
-      "grid": "9",
+      "grid": "17",
       "driver": {
-        "code": "HUL",
-        "givenName": "Nico",
-        "familyName": "Hulkenberg",
-        "nationality": "German"
+        "code": "SAI",
+        "givenName": "Carlos",
+        "familyName": "Sainz",
+        "nationality": "Spanish"
       },
-      "constructor": "Audi",
-      "laps": "29",
+      "constructor": "Williams",
+      "laps": "23",
+      "time": null,
+      "status": "DNF",
+      "fastestLap": null
+    },
+    {
+      "position": "NC",
+      "grid": "19",
+      "driver": {
+        "code": "PER",
+        "givenName": "Sergio",
+        "familyName": "Perez",
+        "nationality": "Mexican"
+      },
+      "constructor": "Cadillac",
+      "laps": "4",
       "time": null,
       "status": "DNF",
       "fastestLap": null
@@ -331,22 +336,7 @@
         "nationality": "Finnish"
       },
       "constructor": "Cadillac",
-      "laps": "15",
-      "time": null,
-      "status": "DNF",
-      "fastestLap": null
-    },
-    {
-      "position": "NC",
-      "grid": "21",
-      "driver": {
-        "code": "STR",
-        "givenName": "Lance",
-        "familyName": "Stroll",
-        "nationality": "Canadian"
-      },
-      "constructor": "Aston Martin",
-      "laps": "5",
+      "laps": "2",
       "time": null,
       "status": "DNF",
       "fastestLap": null

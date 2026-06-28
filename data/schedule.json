@@ -337,7 +337,7 @@
       },
       "sprintQualifying": null,
       "sprint": null,
-      "winner": null
+      "winner": "George Russell"
     },
     {
       "round": "11",
@@ -645,7 +645,7 @@
       "date": "2026-11-01",
       "time": "20:00:00Z",
       "circuit": {
-        "circuitName": "Aut\u00f3dromo Hermanos Rodr\u00edguez",
+        "circuitName": "Autódromo Hermanos Rodríguez",
         "location": {
           "locality": "Mexico City",
           "country": "Mexico"
@@ -677,7 +677,7 @@
       "date": "2026-11-08",
       "time": "17:00:00Z",
       "circuit": {
-        "circuitName": "Autodromo Jos\u00e9 Carlos Pace | Interlagos",
+        "circuitName": "Autodromo José Carlos Pace | Interlagos",
         "location": {
           "locality": "Sao Paulo",
           "country": "Brazil"

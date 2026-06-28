@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "round": "9",
-  "updated": "2026-06-24T18:15:00Z",
+  "round": "10",
+  "updated": "2026-06-28T15:30:00Z",
   "driverStandings": [
     {
       "position": "1",
@@ -13,24 +13,11 @@
         "permanentNumber": "12"
       },
       "constructor": "Mercedes",
-      "points": "156",
+      "points": "171",
       "wins": "5"
     },
     {
       "position": "2",
-      "driver": {
-        "code": "HAM",
-        "givenName": "Lewis",
-        "familyName": "Hamilton",
-        "nationality": "",
-        "permanentNumber": "44"
-      },
-      "constructor": "Ferrari",
-      "points": "115",
-      "wins": "1"
-    },
-    {
-      "position": "3",
       "driver": {
         "code": "RUS",
         "givenName": "George",
@@ -39,37 +26,24 @@
         "permanentNumber": "63"
       },
       "constructor": "Mercedes",
-      "points": "106",
+      "points": "131",
+      "wins": "2"
+    },
+    {
+      "position": "3",
+      "driver": {
+        "code": "HAM",
+        "givenName": "Lewis",
+        "familyName": "Hamilton",
+        "nationality": "",
+        "permanentNumber": "44"
+      },
+      "constructor": "Ferrari",
+      "points": "125",
       "wins": "1"
     },
     {
       "position": "4",
-      "driver": {
-        "code": "LEC",
-        "givenName": "Charles",
-        "familyName": "Leclerc",
-        "nationality": "",
-        "permanentNumber": "16"
-      },
-      "constructor": "Ferrari",
-      "points": "75",
-      "wins": "0"
-    },
-    {
-      "position": "5",
-      "driver": {
-        "code": "NOR",
-        "givenName": "Lando",
-        "familyName": "Norris",
-        "nationality": "",
-        "permanentNumber": "4"
-      },
-      "constructor": "McLaren",
-      "points": "73",
-      "wins": "0"
-    },
-    {
-      "position": "6",
       "driver": {
         "code": "PIA",
         "givenName": "Oscar",
@@ -78,7 +52,33 @@
         "permanentNumber": "81"
       },
       "constructor": "McLaren",
-      "points": "68",
+      "points": "80",
+      "wins": "0"
+    },
+    {
+      "position": "5",
+      "driver": {
+        "code": "LEC",
+        "givenName": "Charles",
+        "familyName": "Leclerc",
+        "nationality": "",
+        "permanentNumber": "16"
+      },
+      "constructor": "Ferrari",
+      "points": "79",
+      "wins": "0"
+    },
+    {
+      "position": "6",
+      "driver": {
+        "code": "NOR",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "nationality": "",
+        "permanentNumber": "4"
+      },
+      "constructor": "McLaren",
+      "points": "79",
       "wins": "0"
     },
     {
@@ -91,11 +91,24 @@
         "permanentNumber": "33"
       },
       "constructor": "Red Bull",
-      "points": "55",
+      "points": "73",
       "wins": "0"
     },
     {
       "position": "8",
+      "driver": {
+        "code": "HAD",
+        "givenName": "Isack",
+        "familyName": "Hadjar",
+        "nationality": "",
+        "permanentNumber": "6"
+      },
+      "constructor": "Red Bull",
+      "points": "42",
+      "wins": "0"
+    },
+    {
+      "position": "9",
       "driver": {
         "code": "GAS",
         "givenName": "Pierre",
@@ -108,19 +121,6 @@
       "wins": "0"
     },
     {
-      "position": "9",
-      "driver": {
-        "code": "HAD",
-        "givenName": "Isack",
-        "familyName": "Hadjar",
-        "nationality": "",
-        "permanentNumber": "6"
-      },
-      "constructor": "Red Bull",
-      "points": "34",
-      "wins": "0"
-    },
-    {
       "position": "10",
       "driver": {
         "code": "LAW",
@@ -130,7 +130,7 @@
         "permanentNumber": "30"
       },
       "constructor": "RB",
-      "points": "28",
+      "points": "30",
       "wins": "0"
     },
     {
@@ -169,7 +169,7 @@
         "permanentNumber": "36"
       },
       "constructor": "RB",
-      "points": "13",
+      "points": "14",
       "wins": "0"
     },
     {
@@ -268,7 +268,7 @@
       "driver": {
         "code": "PER",
         "givenName": "Sergio",
-        "familyName": "P\u00e9rez",
+        "familyName": "Pérez",
         "nationality": "",
         "permanentNumber": "11"
       },
@@ -295,28 +295,28 @@
       "position": "1",
       "constructor": "Mercedes",
       "nationality": "Germany",
-      "points": "262",
-      "wins": "6"
+      "points": "302",
+      "wins": "7"
     },
     {
       "position": "2",
       "constructor": "Ferrari",
       "nationality": "Italy",
-      "points": "190",
+      "points": "204",
       "wins": "1"
     },
     {
       "position": "3",
       "constructor": "McLaren",
       "nationality": "Great Britain",
-      "points": "141",
+      "points": "159",
       "wins": "0"
     },
     {
       "position": "4",
       "constructor": "Red Bull",
       "nationality": "Austria",
-      "points": "89",
+      "points": "115",
       "wins": "0"
     },
     {
@@ -330,7 +330,7 @@
       "position": "6",
       "constructor": "RB",
       "nationality": "Italy",
-      "points": "41",
+      "points": "44",
       "wins": "0"
     },
     {
