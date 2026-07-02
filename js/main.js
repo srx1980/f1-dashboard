@@ -11,7 +11,6 @@ const DATA = {
   standings: 'data/standings.json',
   schedule: 'data/schedule.json',
   results: 'data/results.json',
-  summary: 'data/summary.md',
 };
 
 /* ----------------------------------------------------------- Utilities --- */
@@ -426,56 +425,6 @@ function startCountdown(target) {
   countdownTimer = setInterval(tick, 1000);
 }
 
-/* ----------------------------------------------- Optional race summary --- */
-
-/** Minimal, safe Markdown → HTML for the summary section. */
-function renderMarkdown(md) {
-  const lines = md.replace(/\r\n/g, '\n').split('\n');
-  let html = '';
-  let inList = false;
-
-  const inline = (s) =>
-    esc(s)
-      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m, t, u) =>
-        /^https?:\/\//.test(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>` : t)
-      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-      .replace(/(^|[^*])\*([^*]+)\*/g, '$1<em>$2</em>')
-      .replace(/`([^`]+)`/g, '<code>$1</code>');
-
-  const closeList = () => { if (inList) { html += '</ul>'; inList = false; } };
-
-  for (const raw of lines) {
-    const line = raw.trimEnd();
-    if (!line.trim()) { closeList(); continue; }
-
-    if (/^###\s+/.test(line)) { closeList(); html += `<h3>${inline(line.replace(/^###\s+/, ''))}</h3>`; }
-    else if (/^##\s+/.test(line)) { closeList(); html += `<h2>${inline(line.replace(/^##\s+/, ''))}</h2>`; }
-    else if (/^#\s+/.test(line)) { closeList(); html += `<h1>${inline(line.replace(/^#\s+/, ''))}</h1>`; }
-    else if (/^[-*]\s+/.test(line)) {
-      if (!inList) { html += '<ul>'; inList = true; }
-      html += `<li>${inline(line.replace(/^[-*]\s+/, ''))}</li>`;
-    } else {
-      closeList();
-      html += `<p>${inline(line)}</p>`;
-    }
-  }
-  closeList();
-  return html;
-}
-
-async function loadSummary() {
-  try {
-    const res = await fetch(DATA.summary, { cache: 'no-cache' });
-    if (!res.ok) return; // 404 → keep section hidden
-    const md = await res.text();
-    if (!md.trim()) return;
-    $('#summary-content').innerHTML = renderMarkdown(md);
-    $('#summary').classList.remove('is-hidden');
-  } catch {
-    /* network error → leave hidden */
-  }
-}
-
 /* --------------------------------------------------------- Smooth nav --- */
 
 function initSmoothScroll() {
@@ -562,7 +511,7 @@ async function init() {
     catch (e) { console.error(e); showError('calendar-body', 5, 'Failed to render calendar.'); }
   }
 
-  loadSummary();
+  // Summary is now static HTML in index.html (for SEO). No JS fetch needed.
 }
 
 document.addEventListener('DOMContentLoaded', init);

@@ -20,7 +20,7 @@ The live site is **managed by an AI agent called Hermes** (the data pipeline). T
 
 **Hermes responsibilities:**
 - Update `data/standings.json`, `data/schedule.json`, `data/results.json` after each race / on schedule
-- Optionally write `data/summary.md` (AI race summary)
+- Update the Race Summary section in `index.html` directly (static HTML, for SEO)
 - Push changes to the Git repository
 
 **Hermes does NOT touch:** frontend HTML/CSS/JS (unless explicitly asked).
@@ -96,9 +96,10 @@ Two tables side-by-side (stack on mobile):
 - Next upcoming race: red left accent + "Next" tag
 - Winner column: name or TBD
 
-### 6. Race Summary (optional)
-- AI-generated Markdown from `/data/summary.md`
-- Section hidden if file missing (404)
+### 6. Race Summary (static HTML)
+- AI-generated race summary written directly as static HTML in `index.html` (inside `#summary-content`)
+- Hermes updates this section after each race — no JS fetch, no `summary.md` needed
+- Content is always visible (no `is-hidden` class) and fully indexed by search engines for SEO
 
 ## Design / Aesthetic
 
@@ -211,7 +212,7 @@ These are the EXACT JSON shapes the frontend fetches. Handle these structures pr
 │   ├── standings.json
 │   ├── schedule.json
 │   ├── results.json
-│   └── summary.md
+│   └── summary.md  (legacy — no longer fetched by JS)
 ├── assets/
 │   ├── favicon.ico
 │   └── og-image.png
