@@ -1,7 +1,7 @@
 {
   "season": "2026",
   "round": "9",
-  "updated": "2026-07-04T19:31:04Z",
+  "updated": "2026-07-05T14:00:00Z",
   "driverStandings": [
     {
       "position": "1",
@@ -26,7 +26,7 @@
         "permanentNumber": "63"
       },
       "constructor": "Mercedes",
-      "points": "136",
+      "points": "154",
       "wins": "2"
     },
     {
@@ -39,24 +39,11 @@
         "permanentNumber": "44"
       },
       "constructor": "Ferrari",
-      "points": "132",
+      "points": "147",
       "wins": "1"
     },
     {
       "position": "4",
-      "driver": {
-        "code": "NOR",
-        "givenName": "Lando",
-        "familyName": "Norris",
-        "nationality": "British",
-        "permanentNumber": "1"
-      },
-      "constructor": "McLaren",
-      "points": "85",
-      "wins": "0"
-    },
-    {
-      "position": "5",
       "driver": {
         "code": "LEC",
         "givenName": "Charles",
@@ -65,7 +52,20 @@
         "permanentNumber": "16"
       },
       "constructor": "Ferrari",
-      "points": "83",
+      "points": "108",
+      "wins": "1"
+    },
+    {
+      "position": "5",
+      "driver": {
+        "code": "NOR",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "nationality": "British",
+        "permanentNumber": "1"
+      },
+      "constructor": "McLaren",
+      "points": "97",
       "wins": "0"
     },
     {
@@ -90,7 +90,7 @@
         "nationality": "Dutch",
         "permanentNumber": "3"
       },
-      "constructor": "Red Bull",
+      "constructor": "Red Bull Racing",
       "points": "76",
       "wins": "0"
     },
@@ -103,8 +103,8 @@
         "nationality": "French",
         "permanentNumber": "6"
       },
-      "constructor": "Red Bull",
-      "points": "42",
+      "constructor": "Red Bull Racing",
+      "points": "52",
       "wins": "0"
     },
     {
@@ -117,7 +117,7 @@
         "permanentNumber": "10"
       },
       "constructor": "Alpine",
-      "points": "41",
+      "points": "42",
       "wins": "0"
     },
     {
@@ -129,12 +129,25 @@
         "nationality": "New Zealander",
         "permanentNumber": "30"
       },
-      "constructor": "RB",
-      "points": "31",
+      "constructor": "Racing Bulls",
+      "points": "39",
       "wins": "0"
     },
     {
       "position": "11",
+      "driver": {
+        "code": "LIN",
+        "givenName": "Arvid",
+        "familyName": "Lindblad",
+        "nationality": "British",
+        "permanentNumber": "41"
+      },
+      "constructor": "Racing Bulls",
+      "points": "20",
+      "wins": "0"
+    },
+    {
+      "position": "12",
       "driver": {
         "code": "BEA",
         "givenName": "Oliver",
@@ -142,12 +155,12 @@
         "nationality": "British",
         "permanentNumber": "87"
       },
-      "constructor": "Haas",
+      "constructor": "Haas F1 Team",
       "points": "18",
       "wins": "0"
     },
     {
-      "position": "12",
+      "position": "13",
       "driver": {
         "code": "COL",
         "givenName": "Franco",
@@ -156,24 +169,24 @@
         "permanentNumber": "43"
       },
       "constructor": "Alpine",
-      "points": "16",
-      "wins": "0"
-    },
-    {
-      "position": "13",
-      "driver": {
-        "code": "LIN",
-        "givenName": "Arvid",
-        "familyName": "Lindblad",
-        "nationality": "British",
-        "permanentNumber": "41"
-      },
-      "constructor": "RB",
-      "points": "14",
+      "points": "18",
       "wins": "0"
     },
     {
       "position": "14",
+      "driver": {
+        "code": "BOR",
+        "givenName": "Gabriel",
+        "familyName": "Bortoleto",
+        "nationality": "Brazilian",
+        "permanentNumber": "5"
+      },
+      "constructor": "Audi",
+      "points": "6",
+      "wins": "0"
+    },
+    {
+      "position": "15",
       "driver": {
         "code": "SAI",
         "givenName": "Carlos",
@@ -186,7 +199,7 @@
       "wins": "0"
     },
     {
-      "position": "15",
+      "position": "16",
       "driver": {
         "code": "ALB",
         "givenName": "Alexander",
@@ -199,7 +212,7 @@
       "wins": "0"
     },
     {
-      "position": "16",
+      "position": "17",
       "driver": {
         "code": "OCO",
         "givenName": "Esteban",
@@ -207,21 +220,8 @@
         "nationality": "French",
         "permanentNumber": "31"
       },
-      "constructor": "Haas",
+      "constructor": "Haas F1 Team",
       "points": "3",
-      "wins": "0"
-    },
-    {
-      "position": "17",
-      "driver": {
-        "code": "BOR",
-        "givenName": "Gabriel",
-        "familyName": "Bortoleto",
-        "nationality": "Brazilian",
-        "permanentNumber": "5"
-      },
-      "constructor": "Audi",
-      "points": "2",
       "wins": "0"
     },
     {
@@ -294,77 +294,66 @@
     {
       "position": "1",
       "constructor": "Mercedes",
-      "nationality": "German",
-      "points": "315",
+      "points": "333",
       "wins": "7"
     },
     {
       "position": "2",
       "constructor": "Ferrari",
-      "nationality": "Italian",
-      "points": "215",
-      "wins": "1"
+      "points": "255",
+      "wins": "2"
     },
     {
       "position": "3",
       "constructor": "McLaren",
-      "nationality": "British",
-      "points": "167",
+      "points": "179",
       "wins": "0"
     },
     {
       "position": "4",
-      "constructor": "Red Bull",
-      "nationality": "Austrian",
-      "points": "118",
+      "constructor": "Red Bull Racing",
+      "points": "128",
       "wins": "0"
     },
     {
       "position": "5",
       "constructor": "Alpine",
-      "nationality": "French",
-      "points": "57",
+      "points": "60",
       "wins": "0"
     },
     {
       "position": "6",
-      "constructor": "RB",
-      "nationality": "Italian",
-      "points": "45",
+      "constructor": "Racing Bulls",
+      "points": "59",
       "wins": "0"
     },
     {
       "position": "7",
-      "constructor": "Haas",
-      "nationality": "American",
+      "constructor": "Haas F1 Team",
       "points": "21",
       "wins": "0"
     },
     {
       "position": "8",
       "constructor": "Williams",
-      "nationality": "British",
       "points": "11",
       "wins": "0"
     },
     {
       "position": "9",
       "constructor": "Audi",
-      "nationality": "German",
-      "points": "2",
+      "points": "6",
       "wins": "0"
     },
     {
       "position": "10",
       "constructor": "Aston Martin",
-      "nationality": "British",
       "points": "1",
       "wins": "0"
     },
     {
       "position": "11",
       "constructor": "Cadillac",
-      "nationality": "American",
       "points": "0",
       "wins": "0"
     }
