@@ -226,25 +226,6 @@
     },
     {
       "position": "12",
-      "grid": "14",
-      "driver": {
-        "code": "SAI",
-        "givenName": "Carlos",
-        "familyName": "Sainz",
-        "nationality": "Spanish"
-      },
-      "constructor": "Williams",
-      "laps": "52",
-      "time": "+4.391",
-      "status": "Finished",
-      "fastestLap": {
-        "rank": "7",
-        "lap": "51",
-        "time": "1:32.734"
-      }
-    },
-    {
-      "position": "13",
       "grid": "13",
       "driver": {
         "code": "BEA",
@@ -263,7 +244,7 @@
       }
     },
     {
-      "position": "14",
+      "position": "13",
       "grid": "17",
       "driver": {
         "code": "OCO",
@@ -282,7 +263,7 @@
       }
     },
     {
-      "position": "15",
+      "position": "14",
       "grid": "20",
       "driver": {
         "code": "PER",
@@ -301,7 +282,7 @@
       }
     },
     {
-      "position": "16",
+      "position": "15",
       "grid": "1",
       "driver": {
         "code": "ANT",
@@ -320,7 +301,7 @@
       }
     },
     {
-      "position": "17",
+      "position": "16",
       "grid": "18",
       "driver": {
         "code": "BOT",
@@ -336,6 +317,25 @@
         "rank": "21",
         "lap": "31",
         "time": "1:35.893"
+      }
+    },
+    {
+      "position": "17",
+      "grid": "14",
+      "driver": {
+        "code": "SAI",
+        "givenName": "Carlos",
+        "familyName": "Sainz",
+        "nationality": "Spanish"
+      },
+      "constructor": "Williams",
+      "laps": "51",
+      "time": "+4.391",
+      "status": "Lapped",
+      "fastestLap": {
+        "rank": "7",
+        "lap": "51",
+        "time": "1:32.734"
       }
     },
     {
