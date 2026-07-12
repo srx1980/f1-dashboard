@@ -430,3 +430,11 @@ This regenerates all of `drivers/`, `teams/`, and `sitemap.xml`. It reads only `
   - Major headlines only (not a live feed)
   - Links to official sources
   - Updated by Hermes after each GP or on major announcements
+
+### Phase 4 — Driver mini-bios
+- [ ] **Mini biography section** on each driver page (`drivers/<code>.html`)
+  - 2-3 sentences per driver: career highlights, F1 debut year, notable achievements
+  - Sourced from Wikipedia / official F1 data
+  - Hand-authored or generated from a `data/driver_bios.json` file
+  - Add a "Bio" section between the profile header and the stats cards
+  - Update generate_pages.py to read the bios file and render the section
