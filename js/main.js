@@ -74,11 +74,34 @@ const num = (v) => { const n = parseFloat(v); return isNaN(n) ? 0 : n; };
 /* ----------------------------------------------------- Team color chips --- */
 
 const TEAM_COLORS = {
-  Mercedes: '#27f4d2', 'Red Bull': '#3671c6', McLaren: '#ff8000',
-  Ferrari: '#e8002d', 'Aston Martin': '#229971', Alpine: '#0093cc',
-  Williams: '#64c4ff', RB: '#6692ff', Sauber: '#52e252', Haas: '#b6babd',
+  Mercedes: '#27f4d2', Ferrari: '#e8002d', McLaren: '#ff8000',
+  'Red Bull Racing': '#3671c6', Alpine: '#0093cc', 'Racing Bulls': '#6692ff',
+  'Haas F1 Team': '#b6babd', Williams: '#64c4ff', Audi: '#00a19b',
+  'Aston Martin': '#229971', Cadillac: '#c69a4e',
+  // Legacy / alternate names kept for backwards compatibility
+  'Red Bull': '#3671c6', RB: '#6692ff', Sauber: '#52e252', Haas: '#b6babd',
 };
 const teamColor = (t) => TEAM_COLORS[t] || '#888';
+
+/* --------------------------------------------------- Internal page links --- */
+/* Slug rules must match scripts/generate_pages.py (slugify / driver code). */
+
+const teamSlug = (name) =>
+  String(name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+/** Link a driver name cell to its page, if a 3-letter code is available. */
+function driverLink(code, inner) {
+  const c = String(code || '').trim().toLowerCase();
+  if (!c) return inner;
+  return `<a class="entity-link" href="drivers/${c}.html">${inner}</a>`;
+}
+
+/** Link a team/constructor cell to its page. */
+function teamLink(name, inner) {
+  const slug = teamSlug(name);
+  if (!slug) return inner;
+  return `<a class="entity-link" href="teams/${slug}.html">${inner}</a>`;
+}
 
 /* --------------------------------------------------------- Error helper --- */
 
@@ -177,12 +200,12 @@ function renderStandings(data) {
         <tr style="--team:${color}">
           <td class="col-pos">${posCell(d.position)}</td>
           <td>
-            <span class="driver">
+            ${driverLink(drv.code, `<span class="driver">
               <span class="driver__name">${esc(drv.givenName)} ${esc(drv.familyName)}</span>
               <span class="code">${esc(drv.code)}</span>
-            </span>
+            </span>`)}
           </td>
-          <td><span class="team"><span class="team__chip" style="background:${color}"></span>${esc(d.constructor)}</span></td>
+          <td><span class="team"><span class="team__chip" style="background:${color}"></span>${teamLink(d.constructor, esc(d.constructor))}</span></td>
           <td class="num">${ptsCell(d.points, maxPts, color)}</td>
           <td class="num">${esc(d.wins)}</td>
         </tr>`;
@@ -201,7 +224,7 @@ function renderStandings(data) {
       return `
         <tr style="--team:${color}">
           <td class="col-pos">${posCell(t.position)}</td>
-          <td><span class="team"><span class="team__chip" style="background:${color}"></span><strong>${esc(t.constructor)}</strong></span></td>
+          <td><span class="team"><span class="team__chip" style="background:${color}"></span>${teamLink(t.constructor, `<strong>${esc(t.constructor)}</strong>`)}</span></td>
           <td class="num">${ptsCell(t.points, maxPts, color)}</td>
           <td class="num">${esc(t.wins)}</td>
         </tr>`;
@@ -265,12 +288,12 @@ function renderResults(data) {
       <tr class="${classes.join(' ')}" style="--team:${color}">
         <td class="col-pos">${posCell}</td>
         <td>
-          <span class="driver">
+          ${driverLink(drv.code, `<span class="driver">
             <span class="driver__name">${esc(drv.givenName)} ${esc(drv.familyName)}</span>
             <span class="code">${esc(drv.code)}</span>
-          </span>
+          </span>`)}
         </td>
-        <td><span class="team"><span class="team__chip" style="background:${color}"></span>${esc(r.constructor)}</span></td>
+        <td><span class="team"><span class="team__chip" style="background:${color}"></span>${teamLink(r.constructor, esc(r.constructor))}</span></td>
         <td>${timeCell}</td>
         <td class="num">${gridCell}</td>
         <td>${flCell}</td>
