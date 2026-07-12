@@ -318,3 +318,37 @@ Fully built and runnable. Vanilla HTML/CSS/JS, no build step, no external depend
 - Removed unused flag maps (`FLAGS`, `COUNTRY_FLAGS`, `driverFlag`, `countryFlag`)
 - Removed unused CSS (`hero__leader`, `pos--medal`, `.flag`, `--silver`, `--bronze`)
 - Removed unused `results` parameter from `renderCalendar()`
+
+
+## Roadmap — Extra Pages (SEO Expansion)
+
+Goal: Increase site traffic and SEO by adding targeted standalone pages while keeping the main dashboard simple (full season on one page).
+
+### Phase 1 — Driver & Team pages
+- [ ] **Driver page template** ("/drivers/<driver-slug>.html") — Cursor builds the template
+  - Mini bio: name, code, nationality, permanent number, team
+  - Season results table: round, race name, grid position, finish position, points, status
+  - Season standings position
+  - Link back to main dashboard
+- [ ] **Team page template** ("/teams/<team-slug>.html") — Cursor builds the template
+  - Mini bio: constructor name, nationality, team principal (if available)
+  - Drivers for current season
+  - Season results table per race (points scored, positions)
+  - Constructor standings position
+  - Link back to main dashboard
+- [ ] **Hermes pipeline** — generate one HTML file per driver and per team from API data, update after each GP
+- [ ] **Internal linking** — standings table on main dashboard links to driver/team pages
+
+### Phase 2 — 2026 Regulations page
+- [ ] **Regulations page** ("/2026-regulations.html") — overview of the new 2026 F1 rule changes
+  - Power unit changes (50% electric, sustainable fuel)
+  - Aerodynamic rules (active aero, reduced downforce)
+  - Car dimensions and weight
+  - Sprint format changes (if any)
+  - Sources cited, static HTML for SEO
+
+### Phase 3 — F1 News page
+- [ ] **News page** ("/news.html" or "/news/index.html") — key F1 news, updated periodically
+  - Major headlines only (not a live feed)
+  - Links to official sources
+  - Updated by Hermes after each GP or on major announcements
