@@ -175,7 +175,7 @@
       },
       "sprint": {
         "date": "2026-05-23",
-        "time": "16:30:00Z"
+        "time": "16:00:00Z"
       },
       "winner": "Andrea Kimi Antonelli"
     },
@@ -309,7 +309,7 @@
       },
       "sprint": {
         "date": "2026-07-04",
-        "time": "10:30:00Z"
+        "time": "11:00:00Z"
       },
       "winner": "Charles Leclerc"
     },
@@ -343,7 +343,7 @@
       },
       "sprintQualifying": null,
       "sprint": null,
-      "winner": null
+      "winner": "Andrea Kimi Antonelli"
     },
     {
       "round": "11",
@@ -411,7 +411,7 @@
       },
       "sprint": {
         "date": "2026-08-22",
-        "time": "09:30:00Z"
+        "time": "10:00:00Z"
       },
       "winner": null
     },
@@ -541,8 +541,8 @@
       },
       "sprintQualifying": null,
       "sprint": {
-        "date": "2026-10-11",
-        "time": ""
+        "date": "2026-10-10",
+        "time": "09:00:00Z"
       },
       "winner": null
     },

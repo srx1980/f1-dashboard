@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "round": "9",
-  "updated": "2026-07-05T14:00:00Z",
+  "round": "10",
+  "updated": "2026-07-19T16:50:54Z",
   "driverStandings": [
     {
       "position": "1",
@@ -13,11 +13,24 @@
         "permanentNumber": "12"
       },
       "constructor": "Mercedes",
-      "points": "179",
-      "wins": "5"
+      "points": "204",
+      "wins": "6"
     },
     {
       "position": "2",
+      "driver": {
+        "code": "HAM",
+        "givenName": "Lewis",
+        "familyName": "Hamilton",
+        "nationality": "British",
+        "permanentNumber": "44"
+      },
+      "constructor": "Ferrari",
+      "points": "159",
+      "wins": "1"
+    },
+    {
+      "position": "3",
       "driver": {
         "code": "RUS",
         "givenName": "George",
@@ -30,19 +43,6 @@
       "wins": "2"
     },
     {
-      "position": "3",
-      "driver": {
-        "code": "HAM",
-        "givenName": "Lewis",
-        "familyName": "Hamilton",
-        "nationality": "British",
-        "permanentNumber": "44"
-      },
-      "constructor": "Ferrari",
-      "points": "147",
-      "wins": "1"
-    },
-    {
       "position": "4",
       "driver": {
         "code": "LEC",
@@ -52,7 +52,7 @@
         "permanentNumber": "16"
       },
       "constructor": "Ferrari",
-      "points": "108",
+      "points": "126",
       "wins": "1"
     },
     {
@@ -65,7 +65,7 @@
         "permanentNumber": "1"
       },
       "constructor": "McLaren",
-      "points": "97",
+      "points": "103",
       "wins": "0"
     },
     {
@@ -78,7 +78,7 @@
         "permanentNumber": "81"
       },
       "constructor": "McLaren",
-      "points": "82",
+      "points": "92",
       "wins": "0"
     },
     {
@@ -91,7 +91,7 @@
         "permanentNumber": "3"
       },
       "constructor": "Red Bull Racing",
-      "points": "76",
+      "points": "91",
       "wins": "0"
     },
     {
@@ -104,7 +104,7 @@
         "permanentNumber": "6"
       },
       "constructor": "Red Bull Racing",
-      "points": "52",
+      "points": "60",
       "wins": "0"
     },
     {
@@ -143,24 +143,11 @@
         "permanentNumber": "41"
       },
       "constructor": "Racing Bulls",
-      "points": "20",
+      "points": "22",
       "wins": "0"
     },
     {
       "position": "12",
-      "driver": {
-        "code": "BEA",
-        "givenName": "Oliver",
-        "familyName": "Bearman",
-        "nationality": "British",
-        "permanentNumber": "87"
-      },
-      "constructor": "Haas F1 Team",
-      "points": "18",
-      "wins": "0"
-    },
-    {
-      "position": "13",
       "driver": {
         "code": "COL",
         "givenName": "Franco",
@@ -169,6 +156,19 @@
         "permanentNumber": "43"
       },
       "constructor": "Alpine",
+      "points": "19",
+      "wins": "0"
+    },
+    {
+      "position": "13",
+      "driver": {
+        "code": "BEA",
+        "givenName": "Oliver",
+        "familyName": "Bearman",
+        "nationality": "British",
+        "permanentNumber": "87"
+      },
+      "constructor": "Haas F1 Team",
       "points": "18",
       "wins": "0"
     },
@@ -182,7 +182,7 @@
         "permanentNumber": "5"
       },
       "constructor": "Audi",
-      "points": "6",
+      "points": "10",
       "wins": "0"
     },
     {
@@ -294,66 +294,77 @@
     {
       "position": "1",
       "constructor": "Mercedes",
-      "points": "333",
-      "wins": "7"
+      "nationality": "German",
+      "points": "358",
+      "wins": "8"
     },
     {
       "position": "2",
       "constructor": "Ferrari",
-      "points": "255",
+      "nationality": "Italian",
+      "points": "285",
       "wins": "2"
     },
     {
       "position": "3",
       "constructor": "McLaren",
-      "points": "179",
+      "nationality": "British",
+      "points": "195",
       "wins": "0"
     },
     {
       "position": "4",
       "constructor": "Red Bull Racing",
-      "points": "128",
+      "nationality": "Austrian",
+      "points": "151",
       "wins": "0"
     },
     {
       "position": "5",
       "constructor": "Alpine",
-      "points": "60",
+      "nationality": "French",
+      "points": "61",
       "wins": "0"
     },
     {
       "position": "6",
       "constructor": "Racing Bulls",
-      "points": "59",
+      "nationality": "Italian",
+      "points": "61",
       "wins": "0"
     },
     {
       "position": "7",
       "constructor": "Haas F1 Team",
+      "nationality": "American",
       "points": "21",
       "wins": "0"
     },
     {
       "position": "8",
       "constructor": "Williams",
+      "nationality": "British",
       "points": "11",
       "wins": "0"
     },
     {
       "position": "9",
       "constructor": "Audi",
-      "points": "6",
+      "nationality": "German",
+      "points": "10",
       "wins": "0"
     },
     {
       "position": "10",
       "constructor": "Aston Martin",
+      "nationality": "British",
       "points": "1",
       "wins": "0"
     },
     {
       "position": "11",
       "constructor": "Cadillac",
+      "nationality": "American",
       "points": "0",
       "wins": "0"
     }
