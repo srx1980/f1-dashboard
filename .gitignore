@@ -10,3 +10,6 @@ Desktop.ini
 
 # Logs
 *.log
+
+# AI agent instructions (not for production)
+CLAUDE.md
