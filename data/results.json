@@ -39,7 +39,7 @@
         "familyName": "Verstappen",
         "nationality": "Dutch"
       },
-      "constructor": "Red Bull",
+      "constructor": "Red Bull Racing",
       "laps": "70",
       "time": "+15.080",
       "status": "Finished",
@@ -115,7 +115,7 @@
         "familyName": "Hadjar",
         "nationality": "French"
       },
-      "constructor": "Red Bull",
+      "constructor": "Red Bull Racing",
       "laps": "70",
       "time": "+55.488",
       "status": "Finished",
@@ -153,7 +153,7 @@
         "familyName": "Lawson",
         "nationality": "New Zealander"
       },
-      "constructor": "RB F1 Team",
+      "constructor": "Racing Bulls",
       "laps": "69",
       "time": "+28.033",
       "status": "Lapped",
@@ -191,7 +191,7 @@
         "familyName": "Lindblad",
         "nationality": "British"
       },
-      "constructor": "RB F1 Team",
+      "constructor": "Racing Bulls",
       "laps": "69",
       "time": "+51.050",
       "status": "Lapped",
@@ -229,7 +229,7 @@
         "familyName": "Gasly",
         "nationality": "French"
       },
-      "constructor": "Alpine F1 Team",
+      "constructor": "Alpine",
       "laps": "69",
       "time": "+53.429",
       "status": "Lapped",
@@ -286,7 +286,7 @@
         "familyName": "Colapinto",
         "nationality": "Argentine"
       },
-      "constructor": "Alpine F1 Team",
+      "constructor": "Alpine",
       "laps": "68",
       "time": "+3.876",
       "status": "Lapped",
@@ -400,7 +400,7 @@
         "familyName": "Pérez",
         "nationality": "Mexican"
       },
-      "constructor": "Cadillac F1 Team",
+      "constructor": "Cadillac",
       "laps": "48",
       "time": "DNF",
       "status": "Retired",
@@ -419,7 +419,7 @@
         "familyName": "Bottas",
         "nationality": "Finnish"
       },
-      "constructor": "Cadillac F1 Team",
+      "constructor": "Cadillac",
       "laps": "13",
       "time": "DNF",
       "status": "Retired",
