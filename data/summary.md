@@ -1,11 +1,11 @@
-# Hungarian Grand Prix 2026 — Norris wins at the Hungaroring
+# Dutch Grand Prix 2026: Norris Dominates Zandvoort as Verstappen's Home Race Ends in Disaster
 
-Lando Norris took victory at the Hungarian Grand Prix, the 11th round of the 2026 Formula 1 season, converting his pole position at the Hungaroring into his first win of the year. The McLaren driver completed 70 laps in 1:39:56.180, finishing 15.080 seconds clear of Max Verstappen in the Red Bull Racing. Andrea Kimi Antonelli completed the podium for Mercedes, 18.728 seconds behind the winner.
+Lando Norris secured a commanding victory at the 2026 Dutch Grand Prix, crossing the finish line at Circuit Park Zandvoort in 2:04:44.859 to take his second win of the season. The McLaren driver led from lights to flag in a race that saw championship implications at every turn.
 
-Charles Leclerc finished fourth for Ferrari, 23.840 seconds back, with Lewis Hamilton fifth in the second Ferrari, 24.540 seconds off the lead. Isack Hadjar was sixth for Red Bull Racing, 55.488 seconds behind Norris, ahead of George Russell in the Mercedes, 57.503 seconds back. The lapped midfield included Liam Lawson and Arvid Lindblad in the Racing Bulls, Nico Hülkenberg and Gabriel Bortoleto for Audi, Pierre Gasly and Franco Colapinto for Alpine, Fernando Alonso and Lance Stroll for Aston Martin, and Esteban Ocon and Oliver Bearman for Haas F1 Team. Carlos Sainz and Alexander Albon completed the field for Williams, both one lap down.
+Andrea Kimi Antonelli finished second for Mercedes, 11.536 seconds behind Norris, extending his championship lead with another podium. His teammate George Russell completed the podium in third, 15.906 seconds off the lead. The two Ferraris followed in tight formation: Lewis Hamilton took fourth at 16.755 seconds and Charles Leclerc fifth at 17.258 seconds — the gap between P4 and P5 was barely half a second. Oscar Piastri brought the second McLaren home in sixth, 32.332 seconds back, while Liam Lawson was the sole Red Bull Racing finisher in seventh, over a minute behind the leaders.
 
-3 drivers failed to finish. Piastri retired after 55 laps, Pérez retired after 48 laps, while Bottas retired after 13 laps.
+Six drivers failed to finish the race. Max Verstappen suffered a nightmare at his home Grand Prix, retiring on lap 0 — before completing even a single racing lap. Oliver Bearman exited after just 2 laps. Lance Stroll retired after 45 laps, Esteban Ocon after 52, and Valtteri Bottas after 61. Alexander Albon made it to lap 66 before his retirement, the longest-lasting DNF of the afternoon.
 
-In the championship battle, Antonelli leads the championship with 219 points, followed by Hamilton is 2nd with 169, Russell is 3rd with 160, Leclerc is 4th with 138, and Norris is 5th with 128. In the constructors' standings, Mercedes (379 points) leads, ahead of Ferrari (307 points) and McLaren (220 points).
+In the championship standings, Antonelli extends his lead to 242 points. Russell and Hamilton are tied at 183 points apiece, with Russell holding second place on countback. Norris climbs to 159 points in fourth, while Leclerc sits fifth at 155. In the constructors' fight, Mercedes leads with 425 points, followed by Ferrari at 338 and McLaren at 263. Red Bull Racing holds fourth at 186 points.
 
-The next race is the Dutch Grand Prix at Zandvoort on August 23.
+The championship now heads to Monza for the Italian Grand Prix on September 6, 2026.
