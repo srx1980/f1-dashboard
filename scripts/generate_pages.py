@@ -39,7 +39,7 @@ TEAMS_DIR = os.path.join(ROOT, "teams")
 
 BASE_URL = "https://srx1980.github.io/f1-dashboard/"
 OG_IMAGE = BASE_URL + "assets/og-image.png"
-ASSET_VERSION = "11"  # keep in sync with the ?v= on index.html assets
+ASSET_VERSION = "12"  # keep in sync with the ?v= on index.html assets
 
 # Extra hand-authored static pages that should also appear in the sitemap.
 STATIC_PAGES = ["2026-regulations.html"]
@@ -223,7 +223,7 @@ def delta_markup(grid, pos):
 # Driver pages
 # --------------------------------------------------------------------------- #
 
-def build_driver_page(entry, season, results, schedule, season_results):
+def build_driver_page(entry, season, results, schedule, season_results, bios):
     driver = entry.get("driver", {})
     name = full_name(driver)
     code = (driver.get("code") or "").upper()
@@ -245,6 +245,15 @@ def build_driver_page(entry, season, results, schedule, season_results):
         f"and {wins} win(s). Latest race result and full {season} results, race by race."
     )
     canonical_path = f"drivers/{slug}.html"
+
+    # --- Driver bio (Phase 4) ---
+    bio_text = bios.get(code, "") or bios.get(code.lower(), "")
+    bio_html = ""
+    if bio_text:
+        bio_html = (
+            '      <div class="section__head"><h2 class="section__title">About</h2></div>\n'
+            '      <p class="bio">' + e(bio_text) + '</p>\n'
+        )
 
     # --- Latest race result for this driver ---
     latest = next((r for r in results.get("results", [])
@@ -366,6 +375,7 @@ def build_driver_page(entry, season, results, schedule, season_results):
         <div class="stat"><span class="stat__label">Wins</span><span class="stat__value">{e(wins)}</span></div>
       </div>
 
+{bio_html}
       <div class="section__head"><h2 class="section__title">Latest Race Result</h2></div>
 {latest_html}
 
@@ -556,6 +566,12 @@ def main():
     except FileNotFoundError:
         season_results = {"races": []}
 
+    # Optional driver bios (Phase 4 - hand-authored, keyed by driver code).
+    try:
+        bios = load_json("driver_bios.json")
+    except FileNotFoundError:
+        bios = {}
+
     os.makedirs(DRIVERS_DIR, exist_ok=True)
     os.makedirs(TEAMS_DIR, exist_ok=True)
 
@@ -575,7 +591,7 @@ def main():
     # Drivers
     driver_count = 0
     for entry in standings.get("driverStandings", []):
-        slug, html_out = build_driver_page(entry, season, results, schedule, season_results)
+        slug, html_out = build_driver_page(entry, season, results, schedule, season_results, bios)
         with open(os.path.join(DRIVERS_DIR, f"{slug}.html"), "w", encoding="utf-8") as fh:
             fh.write(html_out)
         sitemap_urls.append((f"drivers/{slug}.html", "0.8", "weekly"))
