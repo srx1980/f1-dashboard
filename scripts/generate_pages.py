@@ -180,11 +180,9 @@ def render_header(prefix):
   </header>"""
 
 
-def render_breadcrumb(prefix, section_label, section_href, current):
+def render_breadcrumb(prefix, current):
     return f"""      <nav class="crumbs" aria-label="Breadcrumb">
         <a href="{prefix}index.html">Home</a>
-        <span aria-hidden="true">/</span>
-        <a href="{e(section_href)}">{e(section_label)}</a>
         <span aria-hidden="true">/</span>
         <span aria-current="page">{e(current)}</span>
       </nav>"""
@@ -341,9 +339,7 @@ def build_driver_page(entry, season, results, schedule, season_results, bios):
             "@type": "BreadcrumbList",
             "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE_URL},
-                {"@type": "ListItem", "position": 2, "name": "Drivers",
-                 "item": BASE_URL + "index.html#standings"},
-                {"@type": "ListItem", "position": 3, "name": name,
+                {"@type": "ListItem", "position": 2, "name": name,
                  "item": BASE_URL + canonical_path},
             ],
         },
@@ -356,7 +352,7 @@ def build_driver_page(entry, season, results, schedule, season_results, bios):
 
   <main class="container" id="main">
     <section class="section">
-{render_breadcrumb('../', 'Drivers', '../index.html#standings', name)}
+{render_breadcrumb('../', name)}
 
       <header class="profile" style="--team:{color}">
         <div class="profile__id">
@@ -475,9 +471,7 @@ def build_team_page(entry, season, standings, results, schedule):
             "@type": "BreadcrumbList",
             "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE_URL},
-                {"@type": "ListItem", "position": 2, "name": "Teams",
-                 "item": BASE_URL + "index.html#standings"},
-                {"@type": "ListItem", "position": 3, "name": team,
+                {"@type": "ListItem", "position": 2, "name": team,
                  "item": BASE_URL + canonical_path},
             ],
         },
@@ -490,7 +484,7 @@ def build_team_page(entry, season, standings, results, schedule):
 
   <main class="container" id="main">
     <section class="section">
-{render_breadcrumb('../', 'Teams', '../index.html#standings', team)}
+{render_breadcrumb('../', team)}
 
       <header class="profile" style="--team:{color}">
         <div class="profile__id">
