@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "round": "12",
-  "updated": "2026-08-23T18:54:40Z",
+  "round": "13",
+  "updated": "2026-09-06T19:15:00Z",
   "driverStandings": [
     {
       "position": "1",
@@ -12,8 +12,8 @@
         "nationality": "Italian"
       },
       "constructor": "Mercedes",
-      "points": "242",
-      "wins": "6"
+      "points": "267",
+      "wins": "7"
     },
     {
       "position": "2",
@@ -24,7 +24,7 @@
         "nationality": "British"
       },
       "constructor": "Mercedes",
-      "points": "183",
+      "points": "201",
       "wins": "2"
     },
     {
@@ -36,7 +36,7 @@
         "nationality": "British"
       },
       "constructor": "Ferrari",
-      "points": "183",
+      "points": "191",
       "wins": "1"
     },
     {
@@ -48,7 +48,7 @@
         "nationality": "British"
       },
       "constructor": "McLaren",
-      "points": "159",
+      "points": "171",
       "wins": "2"
     },
     {
@@ -72,7 +72,7 @@
         "nationality": "Dutch"
       },
       "constructor": "Red Bull Racing",
-      "points": "112",
+      "points": "127",
       "wins": "0"
     },
     {
@@ -84,7 +84,7 @@
         "nationality": "Australian"
       },
       "constructor": "McLaren",
-      "points": "104",
+      "points": "114",
       "wins": "0"
     },
     {
@@ -102,6 +102,18 @@
     {
       "position": "9",
       "driver": {
+        "code": "GAS",
+        "givenName": "Pierre",
+        "familyName": "Gasly",
+        "nationality": "French"
+      },
+      "constructor": "Alpine",
+      "points": "50",
+      "wins": "0"
+    },
+    {
+      "position": "10",
+      "driver": {
         "code": "LAW",
         "givenName": "Liam",
         "familyName": "Lawson",
@@ -109,18 +121,6 @@
       },
       "constructor": "Racing Bulls",
       "points": "49",
-      "wins": "0"
-    },
-    {
-      "position": "10",
-      "driver": {
-        "code": "GAS",
-        "givenName": "Pierre",
-        "familyName": "Gasly",
-        "nationality": "French"
-      },
-      "constructor": "Alpine",
-      "points": "44",
       "wins": "0"
     },
     {
@@ -132,7 +132,7 @@
         "nationality": "British"
       },
       "constructor": "Racing Bulls",
-      "points": "23",
+      "points": "27",
       "wins": "0"
     },
     {
@@ -144,7 +144,7 @@
         "nationality": "Argentine"
       },
       "constructor": "Alpine",
-      "points": "19",
+      "points": "21",
       "wins": "0"
     },
     {
@@ -210,18 +210,6 @@
     {
       "position": "18",
       "driver": {
-        "code": "OCO",
-        "givenName": "Esteban",
-        "familyName": "Ocon",
-        "nationality": "French"
-      },
-      "constructor": "Haas F1 Team",
-      "points": "3",
-      "wins": "0"
-    },
-    {
-      "position": "19",
-      "driver": {
         "code": "ALO",
         "givenName": "Fernando",
         "familyName": "Alonso",
@@ -232,31 +220,19 @@
       "wins": "0"
     },
     {
+      "position": "19",
+      "driver": {
+        "code": "OCO",
+        "givenName": "Esteban",
+        "familyName": "Ocon",
+        "nationality": "French"
+      },
+      "constructor": "Haas F1 Team",
+      "points": "3",
+      "wins": "0"
+    },
+    {
       "position": "20",
-      "driver": {
-        "code": "TSU",
-        "givenName": "Yuki",
-        "familyName": "Tsunoda",
-        "nationality": "Japanese"
-      },
-      "constructor": "Racing Bulls",
-      "points": "0",
-      "wins": "0"
-    },
-    {
-      "position": "21",
-      "driver": {
-        "code": "STR",
-        "givenName": "Lance",
-        "familyName": "Stroll",
-        "nationality": "Canadian"
-      },
-      "constructor": "Aston Martin",
-      "points": "0",
-      "wins": "0"
-    },
-    {
-      "position": "22",
       "driver": {
         "code": "BOT",
         "givenName": "Valtteri",
@@ -268,7 +244,7 @@
       "wins": "0"
     },
     {
-      "position": "23",
+      "position": "21",
       "driver": {
         "code": "PER",
         "givenName": "Sergio",
@@ -278,6 +254,30 @@
       "constructor": "Cadillac",
       "points": "0",
       "wins": "0"
+    },
+    {
+      "position": "22",
+      "driver": {
+        "code": "STR",
+        "givenName": "Lance",
+        "familyName": "Stroll",
+        "nationality": "Canadian"
+      },
+      "constructor": "Aston Martin",
+      "points": "0",
+      "wins": "0"
+    },
+    {
+      "position": "23",
+      "driver": {
+        "code": "TSU",
+        "givenName": "Yuki",
+        "familyName": "Tsunoda",
+        "nationality": "Japanese"
+      },
+      "constructor": "Racing Bulls",
+      "points": "0",
+      "wins": "0"
     }
   ],
   "constructorStandings": [
@@ -285,42 +285,42 @@
       "position": "1",
       "constructor": "Mercedes",
       "nationality": "German",
-      "points": "425",
-      "wins": "8"
+      "points": "468",
+      "wins": "9"
     },
     {
       "position": "2",
       "constructor": "Ferrari",
       "nationality": "Italian",
-      "points": "338",
+      "points": "346",
       "wins": "2"
     },
     {
       "position": "3",
       "constructor": "McLaren",
       "nationality": "British",
-      "points": "263",
+      "points": "285",
       "wins": "2"
     },
     {
       "position": "4",
       "constructor": "Red Bull Racing",
       "nationality": "Austrian",
-      "points": "186",
+      "points": "201",
       "wins": "0"
     },
     {
       "position": "5",
-      "constructor": "Racing Bulls",
-      "nationality": "Italian",
-      "points": "66",
+      "constructor": "Alpine",
+      "nationality": "French",
+      "points": "71",
       "wins": "0"
     },
     {
       "position": "6",
-      "constructor": "Alpine",
-      "nationality": "French",
-      "points": "63",
+      "constructor": "Racing Bulls",
+      "nationality": "Italian",
+      "points": "70",
       "wins": "0"
     },
     {

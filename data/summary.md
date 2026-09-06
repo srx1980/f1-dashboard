@@ -1,11 +1,11 @@
-# Dutch Grand Prix 2026: Norris Dominates Zandvoort as Verstappen's Home Race Ends in Disaster
+# Italian Grand Prix 2026: Antonelli Charges from P7 to Home Victory
 
-Lando Norris secured a commanding victory at the 2026 Dutch Grand Prix, crossing the finish line at Circuit Park Zandvoort in 2:04:44.859 to take his second win of the season. The McLaren driver led from lights to flag in a race that saw championship implications at every turn.
+**Andrea Kimi Antonelli** produced a stunning comeback drive at his home race, charging through the field from seventh on the grid to win the Italian Grand Prix at Monza. The Mercedes driver crossed the line in 1:51:15.703, securing his seventh victory of the 2026 season and extending his championship lead to 66 points.
 
-Andrea Kimi Antonelli finished second for Mercedes, 11.536 seconds behind Norris, extending his championship lead with another podium. His teammate George Russell completed the podium in third, 15.906 seconds off the lead. The two Ferraris followed in tight formation: Lewis Hamilton took fourth at 16.755 seconds and Charles Leclerc fifth at 17.258 seconds — the gap between P4 and P5 was barely half a second. Oscar Piastri brought the second McLaren home in sixth, 32.332 seconds back, while Liam Lawson was the sole Red Bull Racing finisher in seventh, over a minute behind the leaders.
+George Russell completed a Mercedes 1-2 finish, 3.9 seconds behind his teammate, while Max Verstappen claimed third place for Red Bull Racing, 14.7 seconds adrift. Lando Norris and Oscar Piastri brought their McLarens home in fourth and fifth respectively, separated by just 0.2 seconds at the flag.
 
-Six drivers failed to finish the race. Max Verstappen suffered a nightmare at his home Grand Prix, retiring on lap 0 — before completing even a single racing lap. Oliver Bearman exited after just 2 laps. Lance Stroll retired after 45 laps, Esteban Ocon after 52, and Valtteri Bottas after 61. Alexander Albon made it to lap 66 before his retirement, the longest-lasting DNF of the afternoon.
+Lewis Hamilton finished sixth for Ferrari, losing further ground in the championship fight. Pierre Gasly, who started from pole position, faded to seventh for Alpine, with Arvid Lindblad and Franco Colapinto completing the top ten. Yuki Tsunoda finished tenth on his Racing Bulls debut, scoring his first point of the season.
 
-In the championship standings, Antonelli extends his lead to 242 points. Russell and Hamilton are tied at 183 points apiece, with Russell holding second place on countback. Norris climbs to 159 points in fourth, while Leclerc sits fifth at 155. In the constructors' fight, Mercedes leads with 425 points, followed by Ferrari at 338 and McLaren at 263. Red Bull Racing holds fourth at 186 points.
+Three drivers failed to finish. Charles Leclerc's race ended after just one lap, while Fernando Alonso retired after 23 laps and Lance Stroll after 26.
 
-The championship now heads to Monza for the Italian Grand Prix on September 6, 2026.
+In the championship standings, Antonelli now leads with 267 points, followed by Russell on 201 and Hamilton on 191. Mercedes extends its constructors' lead to 468 points, with Ferrari second on 346 and McLaren third on 285. The next round takes the circus to the Spanish Grand Prix in Madrid on September 13.
