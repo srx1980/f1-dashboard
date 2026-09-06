@@ -5236,13 +5236,13 @@
         },
         {
           "position": "10",
-          "grid": "",
+          "grid": "17",
           "driver": {
-            "code": "D22",
-            "givenName": "#22",
-            "familyName": ""
+            "code": "TSU",
+            "givenName": "Yuki",
+            "familyName": "Tsunoda"
           },
-          "constructor": "?",
+          "constructor": "Racing Bulls",
           "laps": "53",
           "status": "Finished",
           "time": "+58.136s"
