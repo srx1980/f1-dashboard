@@ -884,3 +884,112 @@ a { color: inherit; text-decoration: none; }
 .browse-list a:hover {
   text-decoration: underline;
 }
+
+/* --------------------------------------------------------------- News --- */
+.news-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.news-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: border-color .15s ease, transform .15s ease;
+}
+
+.news-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.news-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.news-card__source {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.news-card__source--bbc-sport {
+  background: rgba(225, 6, 0, 0.15);
+  color: #ff6b6b;
+}
+
+.news-card__source--the-guardian {
+  background: rgba(0, 82, 155, 0.2);
+  color: #5db3ff;
+}
+
+.news-card__source--f1com {
+  background: rgba(255, 215, 0, 0.15);
+  color: var(--gold);
+}
+
+.news-card__date {
+  color: var(--text-faint);
+  font-size: 0.8rem;
+}
+
+.news-card__title {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.news-card__title a {
+  color: var(--text);
+  transition: color .15s ease;
+}
+
+.news-card__title a:hover {
+  color: var(--accent);
+}
+
+.news-card__excerpt {
+  margin: 0 0 14px;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  max-width: 65ch;
+}
+
+.news-card__link {
+  display: inline-block;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: opacity .15s ease;
+}
+
+.news-card__link:hover {
+  opacity: 0.8;
+}
+
+.news-footer {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  color: var(--text-faint);
+  font-size: 0.82rem;
+}
+
+@media (min-width: 640px) {
+  .news-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (min-width: 960px) {
+  .news-grid { grid-template-columns: 1fr 1fr 1fr; }
+}
