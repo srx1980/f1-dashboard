@@ -993,3 +993,34 @@ a { color: inherit; text-decoration: none; }
 @media (min-width: 960px) {
   .news-grid { grid-template-columns: 1fr 1fr 1fr; }
 }
+
+/* ---------------------------------------------------- Career statistics --- */
+.stats--career {
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 40px;
+}
+
+.stat--career {
+  padding: 14px 12px;
+}
+
+.stat--career .stat__label {
+  font-size: 0.62rem;
+}
+
+.stat--career .stat__value {
+  font-size: clamp(1.3rem, 0.9rem + 1.6vw, 1.9rem);
+}
+
+.stat__value--gold {
+  color: var(--gold) !important;
+  text-shadow: 0 0 18px rgba(255, 215, 0, 0.25);
+}
+
+@media (max-width: 720px) {
+  .stats--career { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 440px) {
+  .stats--career { grid-template-columns: repeat(2, 1fr); }
+}

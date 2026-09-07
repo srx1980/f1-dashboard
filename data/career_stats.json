@@ -1,0 +1,163 @@
+{
+  "ALB": {
+    "races": 142,
+    "wins": 0,
+    "podiums": 2,
+    "poles": 1,
+    "championships": 0
+  },
+  "ALO": {
+    "races": 441,
+    "wins": 32,
+    "podiums": 106,
+    "poles": 23,
+    "championships": 2
+  },
+  "ANT": {
+    "races": 37,
+    "wins": 7,
+    "podiums": 14,
+    "poles": 9,
+    "championships": 0
+  },
+  "BEA": {
+    "races": 40,
+    "wins": 0,
+    "podiums": 0,
+    "poles": 0,
+    "championships": 0
+  },
+  "BOR": {
+    "races": 37,
+    "wins": 0,
+    "podiums": 0,
+    "poles": 0,
+    "championships": 0
+  },
+  "BOT": {
+    "races": 260,
+    "wins": 10,
+    "podiums": 67,
+    "poles": 19,
+    "championships": 0
+  },
+  "COL": {
+    "races": 40,
+    "wins": 0,
+    "podiums": 0,
+    "poles": 0,
+    "championships": 0
+  },
+  "GAS": {
+    "races": 191,
+    "wins": 1,
+    "podiums": 4,
+    "poles": 1,
+    "championships": 0
+  },
+  "HAD": {
+    "races": 35,
+    "wins": 0,
+    "podiums": 2,
+    "poles": 3,
+    "championships": 0
+  },
+  "HAM": {
+    "races": 393,
+    "wins": 106,
+    "podiums": 207,
+    "poles": 118,
+    "championships": 7
+  },
+  "HUL": {
+    "races": 267,
+    "wins": 0,
+    "podiums": 1,
+    "poles": 1,
+    "championships": 0
+  },
+  "LAW": {
+    "races": 48,
+    "wins": 0,
+    "podiums": 0,
+    "poles": 0,
+    "championships": 0
+  },
+  "LEC": {
+    "races": 186,
+    "wins": 9,
+    "podiums": 54,
+    "poles": 34,
+    "championships": 0
+  },
+  "LIN": {
+    "races": 13,
+    "wins": 0,
+    "podiums": 0,
+    "poles": 0,
+    "championships": 0
+  },
+  "NOR": {
+    "races": 165,
+    "wins": 13,
+    "podiums": 48,
+    "poles": 32,
+    "championships": 1
+  },
+  "OCO": {
+    "races": 193,
+    "wins": 1,
+    "podiums": 4,
+    "poles": 0,
+    "championships": 0
+  },
+  "PIA": {
+    "races": 83,
+    "wins": 9,
+    "podiums": 28,
+    "poles": 15,
+    "championships": 0
+  },
+  "PER": {
+    "races": 296,
+    "wins": 6,
+    "podiums": 39,
+    "poles": 4,
+    "championships": 0
+  },
+  "RUS": {
+    "races": 165,
+    "wins": 7,
+    "podiums": 31,
+    "poles": 16,
+    "championships": 0
+  },
+  "SAI": {
+    "races": 245,
+    "wins": 4,
+    "podiums": 29,
+    "poles": 11,
+    "championships": 0
+  },
+  "STR": {
+    "races": 204,
+    "wins": 0,
+    "podiums": 3,
+    "poles": 1,
+    "championships": 0
+  },
+  "TSU": {
+    "races": 116,
+    "wins": 0,
+    "podiums": 0,
+    "poles": 1,
+    "championships": 0
+  },
+  "VER": {
+    "races": 246,
+    "wins": 71,
+    "podiums": 132,
+    "poles": 64,
+    "championships": 4
+  }
+}

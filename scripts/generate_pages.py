@@ -39,10 +39,10 @@ TEAMS_DIR = os.path.join(ROOT, "teams")
 
 BASE_URL = "https://srx1980.github.io/f1-dashboard/"
 OG_IMAGE = BASE_URL + "assets/og-image.png"
-ASSET_VERSION = "12"  # keep in sync with the ?v= on index.html assets
+ASSET_VERSION = "13"  # keep in sync with the ?v= on index.html assets
 
 # Extra hand-authored static pages that should also appear in the sitemap.
-STATIC_PAGES = ["2026-regulations.html"]
+STATIC_PAGES = ["2026-regulations.html", "news.html"]
 
 # Team accent colors keyed by the exact constructor names used in the data.
 TEAM_COLORS = {
@@ -221,7 +221,7 @@ def delta_markup(grid, pos):
 # Driver pages
 # --------------------------------------------------------------------------- #
 
-def build_driver_page(entry, season, results, schedule, season_results, bios):
+def build_driver_page(entry, season, results, schedule, season_results, bios, career_stats):
     driver = entry.get("driver", {})
     name = full_name(driver)
     code = (driver.get("code") or "").upper()
@@ -251,6 +251,28 @@ def build_driver_page(entry, season, results, schedule, season_results, bios):
         bio_html = (
             '      <div class="section__head"><h2 class="section__title">About</h2></div>\n'
             '      <p class="bio">' + e(bio_text) + '</p>\n'
+        )
+
+    # --- Career stats (Phase 5) ---
+    cs = career_stats.get(code, {})
+    career_html = ""
+    if cs:
+        items = []
+        if cs.get("championships", 0) > 0:
+            champ_label = "Championship" + ("s" if cs["championships"] > 1 else "")
+            items.append(
+                f'<div class="stat stat--career"><span class="stat__label">{champ_label}</span>'
+                f'<span class="stat__value stat__value--gold">{cs["championships"]}</span></div>'
+            )
+        items.append(f'<div class="stat stat--career"><span class="stat__label">Career Wins</span><span class="stat__value">{cs["wins"]}</span></div>')
+        items.append(f'<div class="stat stat--career"><span class="stat__label">Career Podiums</span><span class="stat__value">{cs["podiums"]}</span></div>')
+        items.append(f'<div class="stat stat--career"><span class="stat__label">Career Poles</span><span class="stat__value">{cs["poles"]}</span></div>')
+        items.append(f'<div class="stat stat--career"><span class="stat__label">Career Races</span><span class="stat__value">{cs["races"]}</span></div>')
+        career_html = (
+            '      <div class="section__head"><h2 class="section__title">Career Statistics</h2></div>\n'
+            '      <div class="stats stats--career">\n'
+            + "\n".join(items)
+            + '\n      </div>\n'
         )
 
     # --- Latest race result for this driver ---
@@ -372,6 +394,7 @@ def build_driver_page(entry, season, results, schedule, season_results, bios):
       </div>
 
 {bio_html}
+{career_html}
       <div class="section__head"><h2 class="section__title">Latest Race Result</h2></div>
 {latest_html}
 
@@ -566,6 +589,12 @@ def main():
     except FileNotFoundError:
         bios = {}
 
+    # Optional career statistics (Phase 5 - fetched from Ergast API, keyed by driver code).
+    try:
+        career_stats = load_json("career_stats.json")
+    except FileNotFoundError:
+        career_stats = {}
+
     os.makedirs(DRIVERS_DIR, exist_ok=True)
     os.makedirs(TEAMS_DIR, exist_ok=True)
 
@@ -585,7 +614,7 @@ def main():
     # Drivers
     driver_count = 0
     for entry in standings.get("driverStandings", []):
-        slug, html_out = build_driver_page(entry, season, results, schedule, season_results, bios)
+        slug, html_out = build_driver_page(entry, season, results, schedule, season_results, bios, career_stats)
         with open(os.path.join(DRIVERS_DIR, f"{slug}.html"), "w", encoding="utf-8") as fh:
             fh.write(html_out)
         sitemap_urls.append((f"drivers/{slug}.html", "0.8", "weekly"))
